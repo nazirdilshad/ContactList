@@ -1,7 +1,3 @@
-/**
- * Created by aarnavjindal on 07/05/20.
- */
-
 export { Trie }
 
 class TrieNode{
@@ -25,10 +21,10 @@ class Trie {
         this.current = this.root;
 
         let init = [
-            ["Aarnav", "123456"],
-            ["Akul", "123546"],
-            ["Shriya", "123654"],
-            ["Prateek", "123465"]
+            ["Umama", "123456"],
+            ["Nazir", "123546"],
+            ["Dilshad", "123654"],
+            ["Yash", "123465"]
         ];
 
         for(let i=0;i<init.length;i++){
